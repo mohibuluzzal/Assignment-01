@@ -119,3 +119,55 @@ body{
 align-items: center;
 justify-content: center;
 }
+
+/* Target section start */
+.skills{
+  
+    
+}
+
+.text-center{
+    /* text-align:center; */
+}
+
+/* skill styles */
+.skill-container{
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+}
+.skill{
+    padding: 20px;
+    text-align: left;
+    /* box-shadow: 1px 1px 1px 1px ;
+    border-radius: 5px; */
+    padding-bottom: 20px;
+    margin-bottom: 0 auto;
+}
+.skill-title{
+    margin-bottom: 20px;
+}
+.img{
+    margin-bottom: 20px;
+}
+.skill-desc{
+    margin-bottom: 20px;
+}
+.box-1{
+    background-color:rgba(255, 76, 30, 0.05);
+    border-radius: 5px;
+}
+.box-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 5px;
+}
+.box-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 5px;
+}
+.lrn-more{
+    font-weight: bold;
+    font-size:small;
+    text-decoration:underline;
+    color: black;
+}
