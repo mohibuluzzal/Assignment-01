@@ -171,3 +171,50 @@ justify-content: center;
     text-decoration:underline;
     color: black;
 }
+
+/* second background start */
+.second-background{
+    height: 280px;
+    width: 950px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    color: white;
+}
+}
+.text{
+    text-align:center;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+/* start Footer */
+.footer-container{
+    max-width: 1440px;
+    height: 80px;
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 10px;
+}
+.footer-sctions{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+.social{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
