@@ -34,6 +34,14 @@ body{
     gap: 20px;
     /* padding-bottom: 50px; */
 }
+.main-section{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: overlay;
+    padding: 30px 40px;
+    border-radius: 10px;
+
+}
 #contact-btn{
     color: white;
     width: 180px;
@@ -106,13 +114,17 @@ body{
 .btn-learn{
     width: 150px;
     height: 40px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight:600;
     color: rgba(13, 19, 33, 0.717);
     border-radius: none;
+    background-color: white;
+    border: 1.5px solid black;
+    
 }
 /* Start Third Section */
 .third-section{
+    margin: 30px;
     text-align: center;
     height: auto;
 }
@@ -208,17 +220,22 @@ justify-content: center;
     height: 80px;
     background-color: rgba(13, 19, 33, 0.03);
     border-radius: 10px;
+
 }
 .footer-sctions{
     display: flex;
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content:space-between;
     padding-top: 20px;
+    align-items:center ;
 
 }
 .social{
     width: 150px;
     display: flex;
     justify-content: space-evenly;
+}
+.paragraph-bold{
+    font-weight:600 ;
 }
